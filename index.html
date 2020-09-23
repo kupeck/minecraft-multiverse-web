@@ -19,13 +19,25 @@ body {
 h2 {
     color: #7289DA;
 }
+.button {
+    background-color: #222222;
+    color: #d4d4d4;
+}
+.buttonhover {
+    background-color: black;
+    color: white;
+}
 </style>
 <script>
-document.body.addEventListener("keydown", function (event) {
-    if (event.keyCode === 27) {
-        window.location.replace("/*your url here*/");
-    }
-});
+function hoverbutton() {
+    document.getElementById(button).class="buttonhover"
+}
+function resetbutton() {
+    document.getElementById(button).class="button"
+}
+function click() {
+    window.location.href = "https://kupeck.github.io/minecraft-multiverse-web/";
+}
 </script>
 </head>
 <body>
@@ -35,5 +47,6 @@ document.body.addEventListener("keydown", function (event) {
 Zatím se můžete připojit na náš discord!</p>
 <a href=about:blank><h2><u>Join Discord!</u></h2></a>
 </div>
+<button id="button" class="button" onmouseover="hoverbutton()" onmouseout="resetbutton()" onclick="click()">Beta!</button>
 </body>
 </html>
