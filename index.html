@@ -21,11 +21,11 @@ h2 {
 }
 </style>
 <script>
-function keyPress (e) {
-    if(e.key === "Escape") {
-        window.location.href = "https://kupeck.github.io/minecraft-multiverse-web/beta.html"
+document.body.addEventListener("keydown", function (event) {
+    if (event.keyCode === 27) {
+        window.location.replace("/*your url here*/");
     }
-}
+});
 </script>
 </head>
 <body>
