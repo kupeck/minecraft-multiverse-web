@@ -28,17 +28,6 @@ h2 {
     color: white;
 }
 </style>
-<script>
-function hoverbutton() {
-    document.getElementById(button).class="buttonhover"
-}
-function resetbutton() {
-    document.getElementById(button).class="button"
-}
-function click() {
-    window.location.href = "https://kupeck.github.io/minecraft-multiverse-web/";
-}
-</script>
 </head>
 <body>
 <div class="contain">
@@ -47,6 +36,6 @@ function click() {
 Zatím se můžete připojit na náš discord!</p>
 <a href=about:blank><h2><u>Join Discord!</u></h2></a>
 </div>
-<button id="button" class="button" onmouseover="hoverbutton()" onmouseout="resetbutton()" onclick="click()">Beta!</button>
+<button id="button" class="button" onmouseover="document.getElementById(button).class='buttonhover'" onmouseout="document.getElementById(button).class='button'" onclick="location.href='/beta.html';">Beta!</button>
 </body>
 </html>
