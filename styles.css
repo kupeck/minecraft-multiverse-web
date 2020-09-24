@@ -13,7 +13,7 @@ nav {
     background-color: #252525;
 }
 ul {
-margin-left: 0;
+    margin-left: 65px;
 }
 ul li {
     list-style: none;
@@ -24,7 +24,7 @@ ul li {
 ul li a {
     display: block;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color: #d4d4d4;
     padding: 0 20px;
 }
