@@ -1,3 +1,3 @@
 # minecraft-multiverse-web
 
-https://kupeck.github.io/minecraft-multiverse-web/
+https://lathe-crew.github.io/minecraft-multiverse-web/
