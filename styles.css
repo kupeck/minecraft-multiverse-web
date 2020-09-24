@@ -167,7 +167,7 @@ ul li a:hover {
     stroke-dasharray: 50px;
     stroke-dashoffset: 50px;
     animation: line-anim 1s ease forwards 2s;
-    animation: fill 1s ease forwards 3s;
+    animation: fill 1s ease forwards 2s;
 }
 /*konec animované šipky*/
 /*Zde jsou .classy nebo #selectory které jsou použity pouze jednou*/
