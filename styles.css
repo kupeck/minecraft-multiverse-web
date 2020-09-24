@@ -171,3 +171,8 @@ ul li a:hover {
 }
 /*konec animované šipky*/
 /*Zde jsou .classy nebo #selectory které jsou použity pouze jednou*/
+#cornerlogo {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
