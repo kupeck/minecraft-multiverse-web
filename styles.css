@@ -32,10 +32,3 @@ ul li a:hover {
     background-color: #303030;
     color: #fff;
 }
-ul li a.across {
-    display: block;
-    text-decoration: none;
-    font-size: 16px;
-    color: #d4d4d4;
-    padding: 0 20px;
-}
