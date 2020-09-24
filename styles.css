@@ -52,7 +52,7 @@ ul li a:hover {
 #logo path:nth-child(1) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
-    animation: line-anim 2s ease forwards;
+    animation: line-anim 2s ease forwards 0.0s;
 }
 #logo path:nth-child(2) {
     stroke-dasharray: 500px;
