@@ -27,7 +27,7 @@ ul {
 }
 ul li {
     list-style: none;
-    display: inline-block;
+    /* display: inline-block; */
     float: left;
     line-height: 65px;
 }
@@ -166,55 +166,87 @@ ul li a:hover {
     }
 }
 /*konec animovaného loga*/
-/*logo but shojter*/
-#logoshort {
+/*logo but vip*/
+#logovip {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: fill 2s ease forwards 1s;
+    animation: fill 2s ease forwards 1.5s;
 }
-#logoshort path:nth-child(1) {
+#logovip path:nth-child(1) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.0s;
 }
-#logoshort path:nth-child(2) {
+#logovip path:nth-child(2) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.3s;
 }
-#logoshort path:nth-child(3) {
+#logovip path:nth-child(3) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.6s;
 }
-#logoshort path:nth-child(4) {
+#logovip path:nth-child(4) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 0.9s;
 }
-#logoshort path:nth-child(5) {
+#logovip path:nth-child(5) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.2s;
 }
-#logoshort path:nth-child(6) {
+#logovip path:nth-child(6) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
     animation: line-anim 2s ease forwards 1.5s;
 }
-#logoshort path:nth-child(7) {
+/*end of logo but vip*/
+/*logo but at*/
+#logoat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fill 2s ease forwards 1.8s;
+}
+#logoat path:nth-child(1) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
-    animation: line-anim 2s ease forwards 1.8s;
+    animation: line-anim 2s ease forwards 0.0s;
 }
-#logoshort path:nth-child(8) {
+#logoat path:nth-child(2) {
     stroke-dasharray: 500px;
     stroke-dashoffset: 500px;
-    animation: line-anim 2s ease forwards 2.1s;
+    animation: line-anim 2s ease forwards 0.3s;
 }
-/*end of logo but shojter*/
+#logoat path:nth-child(3) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#logoat path:nth-child(4) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.9s;
+}
+#logoat path:nth-child(5) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#logoat path:nth-child(6) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.5s;
+}
+/*end of logo but at*/
+
+
+
 /*animovaná šipka*/
 #downarrow {
     position: absolute;
