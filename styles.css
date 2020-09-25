@@ -244,9 +244,55 @@ ul li a:hover {
     animation: line-anim 2s ease forwards 1.5s;
 }
 /*end of logo but at*/
-
-
-
+/*logo but pravidla*/
+#logopravidla {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation: fill 2s ease forwards 1.5s;
+}
+#logopravidla path:nth-child(1) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.0s;
+}
+#logopravidla path:nth-child(2) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.2s;
+}
+#logopravidla path:nth-child(3) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.4s;
+}
+#logopravidla path:nth-child(4) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.6s;
+}
+#logopravidla path:nth-child(5) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 0.8s;
+}
+#logopravidla path:nth-child(6) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.0s;
+}
+#logopravidla path:nth-child(7) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.2s;
+}
+#logopravidla path:nth-child(8) {
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 1.4s;
+}
+/*logo but pravidla*/
 /*animovaná šipka*/
 #downarrow {
     position: absolute;
