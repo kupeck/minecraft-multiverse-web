@@ -211,7 +211,7 @@ ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: fill 2s ease forwards 1.8s;
+    animation: fill 2s ease forwards 2s;
 }
 #logoat path:nth-child(1) {
     stroke-dasharray: 500px;
