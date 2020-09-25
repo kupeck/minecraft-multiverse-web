@@ -175,7 +175,7 @@ ul li a:hover {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    animation: fill 2s ease forwards 2.7s;
+    animation: fill 2s ease forwards 2.2s;
 }
 #logovip path:nth-child(1) {
     stroke-dasharray: 500px;
