@@ -311,16 +311,7 @@ ul li a:hover {
 }
 /*konec animované šipky*/
 /*Footer*/
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    opacity: 50%;
-    background-color: #252525;
-    color: white;
-    text-align: center;
-  }
+
 /*End of footer*/
 /*Zde jsou .classy nebo #selectory které jsou použity pouze jednou*/
 #cornerlogo {
