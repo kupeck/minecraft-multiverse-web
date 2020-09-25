@@ -147,15 +147,15 @@ ul li a:hover {
     animation: line-anim 2s ease forwards 1.8s;
 }
 @keyframes line-anim{
-    to{
+    to {
         stroke-dashoffset: 0;
     }
 }
 @keyframes fill{
-    from{
+    from {
         fill: transparent;
     }
-    to{
+    to {
         fill: #fff;
     }
 }
@@ -168,8 +168,13 @@ ul li a:hover {
     transform: translate(-50%,-50%);
     stroke-dasharray: 50px;
     stroke-dashoffset: 50px;
+    opacity: 50%;
     animation: line-anim 1s ease forwards 2s;
     animation: fill 1s ease forwards 2s;
+    transition: opacity .3s ease-in-out;
+}
+#downarrow:hover {
+    opacity: 100%;
 }
 /*konec animované šipky*/
 /*Zde jsou .classy nebo #selectory které jsou použity pouze jednou*/
