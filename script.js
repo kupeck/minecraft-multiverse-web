@@ -1,1 +1,1 @@
-/* Místo " používej ' */
+/* Místo " používat ' */
