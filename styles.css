@@ -322,3 +322,10 @@ ul li a:hover {
     top: 10px;
     left: 10px;
 }
+table {
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+th {
+    padding: 5%;
+}
