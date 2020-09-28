@@ -47,7 +47,6 @@ ul li a:hover {
     color: #ffffff;
 }
 /*navigace konec*/
-
 /*animovaná šipka*/
 #downarrow {
     position: absolute;
@@ -65,9 +64,6 @@ ul li a:hover {
     opacity: 100%;
 }
 /*konec animované šipky*/
-/*Footer*/
-
-/*End of footer*/
 /*Zde jsou .classy nebo #selectory které jsou použity pouze jednou*/
 #cornerlogo {
     position: absolute;
