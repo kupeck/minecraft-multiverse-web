@@ -21,6 +21,7 @@ body {
     top: 10px;
     left: 10px;
 }
+/*at tables*/
 table {
     margin-left: 50%;
     transform: translate(-50%);
@@ -46,7 +47,8 @@ th {
 #helpertable {
     color: #55F;
 }
-/*navigace*/
+/*at tables end*/
+/*navigation*/
 nav {
     position: absolute;
     left: 0;
@@ -76,8 +78,8 @@ ul li a:hover {
     background-color: #303030;
     color: #ffffff;
 }
-/*navigace konec*/
-/*animovaná šipka*/
+/*navigation end*/
+/*arrow*/
 #downarrow {
     position: absolute;
     top: 95%;
@@ -93,4 +95,4 @@ ul li a:hover {
 #downarrow:hover {
     opacity: 100%;
 }
-/*konec animované šipky*/
+/*arrow end*/
