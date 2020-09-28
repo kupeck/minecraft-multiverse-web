@@ -6,7 +6,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
 <style>
 body {
-    background-image: ('bg.png');
     background-color: #1e1e1e;
     color: #D4d4d4;
 }
@@ -22,12 +21,21 @@ h2 {
     color: #7289DA;
 }
 .button {
-    background-color: #1e1e1e;
-    color: #1e1e1e;
+    background-color: rgba(0,0,0,0.1);
+    color: rgba(0,0,0,0.1);
     border-width: 0;
 }
 a {
     color: #555;
+}
+.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 25%;
+    z-index: -1;
 }
 </style>
 </head>
@@ -40,5 +48,6 @@ Zatím se můžete připojit na náš discord!<br></p>
 </div>
 <button class="button" onclick="window.location.href='web.html';">Beta!</button>
 <p style="position: absolute; bottom: 2%; left: 50%; transform: translate(-50%); font-family: 'Lexend Deca', sans-serif; font-size: small; color: #444" >Nebo se můžete podívat na tento nedodělaný web <a href=web.html>Zde</a></p>
+<img class="bg" src="bg.png" width="100%" height="100%">
 </body>
 </html>
