@@ -9,7 +9,7 @@ body {
     font-family: 'Lexend Deca', sans-serif;
     width: 100%;
 }
-.actualcontent {
+#actualcontent {
     position: absolute;
     top: 100%;
     left: 10%;
@@ -32,19 +32,19 @@ th {
 .e1 {
     color: #1e1e1e;
 }
-#admintable {
+.admincolor {
     color: #F55;
 }
-#srmodtable {
+.srmodcolor {
     color: #FA0;
 }
-#modtable {
+.modcolor {
     color: #5F5;
 }
-#jrmodtable {
+.jrmodcolor {
     color: #5FF;
 }
-#helpertable {
+.helpercolor {
     color: #55F;
 }
 /*at tables end*/
