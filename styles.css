@@ -88,7 +88,7 @@ ul li a:hover {
     stroke-dasharray: 50px;
     stroke-dashoffset: 50px;
     opacity: 50%;
-    animation: line-anim 1s ease forwards 2s;
+    animation: line-anim 1s ease forwards 1s;
     animation: fill 1s ease forwards 2s;
     transition: opacity .3s ease-in-out;
 }
