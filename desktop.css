@@ -1,14 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    background-color: #1e1e1e;
-    color: #d4d4d4;
-    font-family: 'Lexend Deca', sans-serif;
-    width: 100%;
-}
 #actualcontent {
     position: absolute;
     top: 100%;
@@ -21,33 +10,6 @@ body {
     top: 10px;
     left: 10px;
 }
-/*at tables*/
-table {
-    margin-left: 50%;
-    transform: translate(-50%);
-}
-th {
-    text-align: center;
-}
-.e1 {
-    color: #1e1e1e;
-}
-.admincolor {
-    color: #F55;
-}
-.srmodcolor {
-    color: #FA0;
-}
-.modcolor {
-    color: #5F5;
-}
-.jrmodcolor {
-    color: #5FF;
-}
-.helpercolor {
-    color: #55F;
-}
-/*at tables end*/
 /*navigation*/
 nav {
     position: absolute;
@@ -62,7 +24,6 @@ ul {
 }
 ul li {
     list-style: none;
-    /* display: inline-block; */
     float: left;
     line-height: 65px;
 }
