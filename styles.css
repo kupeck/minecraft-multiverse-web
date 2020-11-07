@@ -96,3 +96,9 @@ th {
     color: #55F;
 }
 /*at tables end*/
+/*mobile optimalizations*/
+@media screen and (max-width: 960px) {
+    .ill-do-this-later {
+        width: 5px;
+    }
+}
